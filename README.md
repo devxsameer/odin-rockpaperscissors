@@ -24,7 +24,7 @@ This project is part of [The Odin Project's](https://www.theodinproject.com/) **
 
 ## 🚀 Live Demo
 
-👉 [click here](https://www.devxsameer.github.io/odin-rockpaperscissors)
+👉 [click here](https://devxsameer.github.io/odin-rockpaperscissors/)
 
 ---
 
