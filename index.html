@@ -4,8 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="header">
+        <h3>Rock Paper Scissors Game!!!</h3>
+        <div class="score-box">
+          <div class="user-score">Your Score: <span>0</span></div>
+          <div class="computer-score">Computer Score: <span>0</span></div>
+        </div>
+      </div>
+      <div class="result"></div>
+      <div class="box">
+        <div class="choices-container">
+          <div class="img-box">
+            <img width="150px" src="./images/rock.png" alt="Rock" id="rock" />
+          </div>
+          <div class="img-box">
+            <img
+              width="150px"
+              src="./images/paper.png"
+              alt="Paper"
+              id="paper"
+            />
+          </div>
+          <div class="img-box">
+            <img
+              width="150px"
+              src="./images/scissors.png"
+              alt="Scissors"
+              id="scissors"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="how-to-play">
+        <ol>
+          <li>
+            Choose your move
+            <span>
+              Click on one of the three buttons: Rock ✊, Paper ✋, or
+              Scissors✌.
+            </span>
+          </li>
+          <li>
+            The computer makes its move
+            <span>
+              The computer will randomly select Rock, Paper, or Scissors.
+            </span>
+          </li>
+          <li>
+            See the result
+            <span>
+              The result of the round (Win, Lose, or Draw) will be displayed
+              instantly.
+            </span>
+          </li>
+          <li>
+            First to 5 wins!
+            <span>
+              Keep playing — the first player to score 5 points wins the game.
+            </span>
+          </li>
+          <li>
+            Play again
+            <span>
+              Once the game ends, you'll have the option to restart and
+              challenge the computer again!
+            </span>
+          </li>
+        </ol>
+      </div>
+      <div class="footer">Made With &hearts; by Sameer Ali.</div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
